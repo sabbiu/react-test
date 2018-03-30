@@ -3,6 +3,12 @@ language: node_js
 node_js:
   - '8.9'
 
+apt:
+  sources:
+    - google-chrome
+  packages:
+    - google-chrome-stable
+    
 before_script:
   - "npm install"
 
