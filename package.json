@@ -4,20 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio wdio.conf.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "selenium-standalone": "^6.13.0",
-    "webdriverio": "^4.12.0"
-  },
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "mocha": "^5.0.5",
+    "selenium-standalone": "^6.13.0",
     "wdio-mocha-framework": "^0.5.13",
     "wdio-selenium-standalone-service": "0.0.10",
-    "wdio-spec-reporter": "^0.1.4"
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
   }
 }
